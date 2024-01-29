@@ -1,12 +1,13 @@
-num = float(input("Enter the number to check it :\n"))
-if (num < 0):
-    print("Number is negative.")
-elif (num > 0):
-    if (num <= 10):
-        print("Number is between 1-10")
-    elif (num > 10 and num <= 20):
-        print("Number is between 11-20")
-    else:
-        print("Number is greater than 20")
+
+a = int(input("Enter the num to check it:"))
+if (a<0):
+ print("Less than zero")
+elif (a>0):
+ if(a>1 and a<=10):
+  print("a is btween 1 to 10")
+ elif(a>11 and a<=20):
+  print("a is between 11 to 20")
+ else:
+   print("a is greater than 20")
 else:
-    print("Number is zero")
+ print("a is eaual to zero")
