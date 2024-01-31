@@ -1,4 +1,4 @@
-
+#the process of passing information to the function is known as argument
 def name(fname,mname="Kumar",lname="Singh"):
     print("Hello",fname,mname,lname)
 name("Ramendra","Pratap","Yadav")
